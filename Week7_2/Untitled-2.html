@@ -1,0 +1,43 @@
+<style type="text/css">.hero-button .btn {
+    min-width: 6.8125rem;
+    height: 1.875rem;
+    font-weight: 400;
+    padding-top:8px;
+  }
+  .hero {
+      height: calc(100vh - 36px);
+  }
+  .hero img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+  }
+  .more-color  {
+    display: none;
+  }
+
+  @media only screen and (min-width: 992px){
+    .hero {
+      height: auto;
+  }
+  .hero img {
+      position: static;
+      height: auto;
+  }
+  }
+  </style>
+  <div class="hero main-callout position-relative text-center">
+      <a href="$url('Search-Show','cgid','new-in-all')$">
+            <picture class="w-100" style="height: 31.3vw"> 
+              <source media="(min-width: 1025px)" srcset="images/homepage/WK26/Hero-Desktop.jpg?$staticlink$" />
+              <source media="(min-width: 335px)" srcset="images/homepage/WK26/Hero-mobile-2.jpg?$staticlink$" /> 
+              
+              <img alt="" class="w-100" src="images/homepage/WK26/Hero-Desktop.jpg?$staticlink$" style="width:auto;" title="" />
+             <div class="hero-button text-center pt-md-4 pt-3" style="padding-top: 10px !important; margin:5px; font-size:x-large !important;"><a class="btn btn-offblack btn-home-primary" href="$url('Search-Show','cgid','new-in-all')$">SHOP NEW IN</a></div>
+           </picture>
+          </a>
+  <div class="position-absolute w-100 pb-3" style="bottom:0px;">
+  
+  </div>
+  </div>

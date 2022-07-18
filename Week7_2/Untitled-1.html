@@ -1,0 +1,126 @@
+<style>
+    .home-images-component .image-container,
+    .home-images-component .copy-container {
+        padding: 0;
+    }
+    .home-images-component .component-container:not(:last-child) {
+        margin: 0 0 0px;
+    }
+    .home-images-component {
+        padding-top: 40px;
+    }
+    .home-images-component .btn-offblack {
+        font-size: 13px;
+        letter-spacing: 0.0581rem;
+        padding: 10px 15px;
+    }
+    .home-images-component .component-heading,
+    .home-images-component .copy-inner p {
+        color: #454444;
+    }
+    .home-images-component .component-heading {
+        font-size: 24px;
+        line-height: 1.8em;
+        margin: 0;
+    }
+    .home-images-component .copy-inner {
+        padding: 0 15px 0px;
+    }
+    .home-images-component .copy-inner p {
+        font-size: 13px;
+        line-height: 1.6em;
+        margin: 0 0 15px;
+        letter-spacing: 1px;
+    }
+     @media only screen and (max-width: 991px) {
+         .home-images-component .copy-inner.upper
+ {
+    margin-bottom:20px;
+}
+    .home-images-component {
+        padding-top: 20px;
+    }
+ }
+
+
+    @media only screen and (min-width: 992px) {
+        .home-images-component {
+            padding-top: 20px;
+        }
+        .home-images-component .component-container {
+            display: flex;
+            align-items: center;
+            margin: 0;
+        }
+        .home-images-component .component-container:not(:first-child) {
+            flex-direction: row-reverse;
+            padding-bottom: 0px;
+            margin: 0;
+        }
+        .home-images-component .copy-inner {
+            width: 450px;
+            margin: 0 auto;
+            padding: 0;
+        }
+        .home-images-component .component-heading {
+            font-size: 42px;
+            margin: 0 0 10px;
+            line-height: 1em;
+            white-space: nowrap;
+        }
+        .home-images-component .copy-inner p {
+            font-size: 15px;
+            margin: 0 0 30px;
+            line-height: 1.13em;
+        }
+        .home-images-component.middle-container {
+            width: 83%;
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+    }
+</style>
+<div class="home-images-component wide-container">
+    <div class="component-container">
+        <div class="image-container col-12 col-md-6">
+            <picture>
+                <source media="(min-width: 992px)" srcset="images/homepage/WK26/Square-1-desktop.jpg?$staticlink$" />
+                <img class="w-100" src="images/homepage/WK26/Square-1-desktop.jpg?$staticlink$?$staticlink$" alt="" title="">
+            </picture>
+        </div>
+        <div class="text-center copy-container col-12 col-md-6">
+            <div class="copy-inner upper">
+                <h2 class="component-heading">
+                    Sunshine <b>Prints</b>
+                </h2>
+                <p>
+                    Stand out and stay cool
+                </p>
+                <a class="btn btn-offblack" href="$url('Search-Show','cgid','shop-dresses')$">
+                    shop dresses
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="component-container">
+        <div class="image-container col-12 col-md-6">
+            <picture>
+                <source media="(min-width: 992px)" srcset="images/homepage/WK26/Square-2-desktop.jpg?$staticlink$" />
+                <img class="w-100" src="images/homepage/WK26/Square-2-desktop.jpg?$staticlink$?$staticlink$" alt="" title="">
+            </picture>
+        </div>
+        <div class="text-center copy-container col-12 col-md-6">
+            <div class="copy-inner">
+                <h2 class="component-heading">
+                    <b>Safari</b> Style
+                </h2>
+                <p>
+                    Inspired by nature, designed for destinations unknown
+               </p>
+                <a class="btn btn-offblack" href="$url('Search-Show','cgid','shop-tops')$">
+                    Explore Tops
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
